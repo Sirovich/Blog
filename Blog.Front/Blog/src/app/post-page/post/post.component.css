@@ -1,0 +1,44 @@
+.container{
+    padding: 10px;
+}
+
+.post h1{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.comment-text{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.comment-editor{
+    display:flex;
+    flex-direction: column;
+}
+
+.comment-editor button{
+    margin-top: 10px;
+}
+
+.comment{
+    display:flex;
+    flex-direction: column;
+    background-color: #ebebebb4;
+    margin-bottom: 10px;
+}
+
+.comment-header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.comment-author{
+    flex-grow:1;
+    color: #06a5b1;
+}
+
+.comment-date{
+    flex-grow:40;
+}

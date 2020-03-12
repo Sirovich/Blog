@@ -1,0 +1,21 @@
+<div class="post container">
+    <h1>{{this.post.title}}</h1>
+    <p class="text-field">
+        {{this.post.text}}
+    </p>
+</div>
+
+<div class="comment-editor container">
+    <textarea class="form-control" rows="5" ng-model="cmtName" placeholder="Your Comment"></textarea>
+    <button class="btn btn-success btn-md pull-right" ng-click='btn_post();'>Comment</button>
+</div>
+
+<div class="container">
+    <div class="comment container" *ngFor="let comment of comments">
+        <div class="comment-header">
+            <p class="comment-author">{{comment.createdUser}}</p>
+            <p class="comment-date">{{comment.createdDate}}</p>
+        </div>
+        <p class="comment-text">{{comment.text}}</p>
+    </div>
+</div>

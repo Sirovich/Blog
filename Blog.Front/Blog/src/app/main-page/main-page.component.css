@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    padding: 15px;
+}
+
+.post{
+    padding: 10px;
+}
+
+a{
+    color: #000000;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #262583;
+}
+
+a:visited{
+    color: #802583;
+}
+
+.additional-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-user-info{
+    font-size: small;
+    color: #4dc8b4;
+    margin: 0;
+}
